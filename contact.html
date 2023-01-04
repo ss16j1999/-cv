@@ -2,27 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <h3>My contact details</h3>
-  <p>my fictional address <br>
+  <p>My fictional address <br>
      8082623xxx <br>
-     myemail@gmail.com <br>
+     Myemail@gmail.com <br>
     </p>
 
      <form action="mailto:shubhamsharma16j1999@gmail.com" method="post" enctype="text/plain" >
 
 
-      <label>Your Name :</label>
-      <input type="text" name="username" ><br><br>
+      <label>First Name   :</label>
+      <input type="text" name="first name" class="form" placeholder="Your name..."><br><br>
+      <label>Last Name   :</label>
+      <input type="text" name="last name" class="form" placeholder="Your last name..."><br><br>
 
-      <label>Your Email :</label>
-      <input type="email" name="useremail" ><br><br>
+      <label>Your Email  :</label>
+      <input type="email" name="useremail"class="form" placeholder="Your email..." ><br><br>
 
+      <label for="country">Country    :</label>
+         <select name="country" id="country" name="usercountry">
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+            <option value="other country">other country</option>
+         </select><br><br>
       <label>Your message :</label><br><br>
-      <textarea name="usermessage" rows="10" cols="35"></textarea> <br>
+      <textarea name="usermessage" rows="10" cols="35" class="form" placeholder="Write something..." ></textarea> <br>
 
-      <input type="submit" value="sumit">
+      <input type="submit" value="Submit" class="button">
       </form>
 
 
