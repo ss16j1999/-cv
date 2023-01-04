@@ -1,0 +1,57 @@
+
+
+   body{
+     background-color: #E5D9B6;
+
+    }
+
+    hr{
+     background-color: #E5D9B6;
+     border-style: none ;
+     border-top-style: dotted;
+     border-top-color: grey;
+     width: 5%;
+     border-width: 5px;
+    }
+
+    h1{
+     color: #5F8D4E;
+     font-style: italic;
+
+
+    }
+    h2{
+     color: #5F8D4E;
+
+    }
+    h3{
+     color: #5F8D4E;
+
+    }
+    h4{
+      color: #285430;
+    }
+    thead{
+      color: #285430;
+    }
+  .popup:hover{
+
+     height: 120%;
+     width: 120%;
+  }
+  .button:hover{
+    background-color: #5F8D4E;
+    border-color: #5F8D4E;
+    border-width: 3px;
+}
+.button{
+     font-weight: bold;
+}
+
+  .form:active{
+     border-radius: 4px;
+
+  }
+  .form{
+      border-style: hidden;
+  }
